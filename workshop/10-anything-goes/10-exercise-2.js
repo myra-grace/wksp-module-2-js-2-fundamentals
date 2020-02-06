@@ -11,10 +11,9 @@
 // Rewrite countBs to make use of this new function.
 
 function countChar(str, char) {
-
-
+    return str.indexOf(char);
 }
 // -------------------------------------------------------------------------
-console.log('Q2: ', countChar('BananaBabyBubbles', 'u'));
-console.log('Q2: ', countChar('BananaBabyBubbles', 'a'));
-console.log('Q2: ', countChar('BananaBabyBubbles', 'Z'));
+console.log("Q2: ", countChar("BananaBabyBubbles", "u"));
+console.log("Q2: ", countChar("BananaBabyBubbles", "a"));
+console.log("Q2: ", countChar("BananaBabyBubbles", "Z"));
