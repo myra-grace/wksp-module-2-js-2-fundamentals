@@ -9,7 +9,7 @@
 
 function greet(lst) {
     // lst is an array of strings
-
+    return lst.map(yes => 'Hello ' + yes);
 }
 // -------------------------------------------------------------------------
 console.log('Q6 greet()', greet(['David', 'Billy', 'Lisa', 'Jennifer']));

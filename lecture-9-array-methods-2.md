@@ -24,6 +24,7 @@ const words = ['The', 'large', 'shaggy', 'dog', 'barked', 'at', 'the', 'silence'
 
 words.forEach(function(word) {
     // do something
+    console.log(word);
 });
 
 ```
@@ -72,7 +73,7 @@ It returns `true` or `false`.
 // Example
 const words = ['The', 'large', 'shaggy', 'dog', 'barked', 'at', 'the', 'silence'];
 
-words.filter(function(word) {
+words.every(function(word) {
     return word.length < 4;
 });
 

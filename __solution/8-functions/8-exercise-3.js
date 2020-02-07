@@ -3,7 +3,7 @@
 
 function calculateAverage(a, b, c, d, e) {
 
-    return Math.round((a + b + c + d + e) / 5);
+    return Math.round((a + b + c + d + e) / arguments.length);
 }
 
 // make certain to console the returned value
